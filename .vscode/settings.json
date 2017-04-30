@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "**/*.map": {},
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.css": {
+            "when": "$(basename).scss"
+        },
+        "app/**/*.js": true,
+        "app/**/*.css": true,
+        "node_modules": true
+    },
+    "vsicons.presets.angular": true
+}
